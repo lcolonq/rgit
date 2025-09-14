@@ -9,11 +9,11 @@
 {% endblock %}
 
 {% block content %}
-{% call sidebar_toggle::sidebar_toggle("Open file browser") %}
+<!-- {% call sidebar_toggle::sidebar_toggle("Open file browser") %} -->
 <div class="two-col">
-  <div class="sidebar">
-      {{ FileTree::new(full_tree.get(), &self.repo, Default::default(), query, Some(repo_path)).render()?|safe }}
-  </div>
+  <!-- <div class="sidebar"> -->
+  <!--     {{ FileTree::new(full_tree.get(), &self.repo, Default::default(), query, Some(repo_path)).render()?|safe }} -->
+  <!-- </div> -->
 
   <div class="table-responsive">
     <table class="repositories">
